@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #f8f3f3, #fce4ec);
+}
+
+nav {
+    background: #e91e63;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    padding: 100px 20px;
+    background: #f3c1d1;
+    color: white;
+    margin-top: 50px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #e91e63;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#products {
+    padding: 40px;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    background: white;
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+button {
+    background: #e91e63;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+#reviews, #faqs, #contact {
+    padding: 40px;
+}
+
+.review {
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+form input, form textarea {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+footer {
+    background: #e91e63;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
